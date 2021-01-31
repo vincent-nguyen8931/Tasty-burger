@@ -11,6 +11,7 @@ Note taker will allow the user to take notes and have them appear on the left ha
 ---------------
 [Tools used](#Tools-used)<br />
 [Deployed here](#Deployed-here)<br />
+[Installation](#Installation)<br />
 [Features](#Features)<br />
 [Lessons learned](#Lessons-learned)<br />
 [Credits](#Credits)<br />
@@ -22,7 +23,8 @@ Tools used
 * Express - Link front end and back end together via routes.
 * GitBash - Assist with version control via commits, push, and pull to and from GitHub.
 * GitHub - Site where the repository lies for deployment and edits.
-* HTML - Displays the collected information from the app.js in a nice tile layout
+* Handlebars - Gives template used to help bring code from the backend to frontend for HTML design.
+* MySQL - Database to store data for application use.
 * Node.js - Build the template and all functions in application. 
 * VS Code - Application used to write and edit code for the application.
 
@@ -30,7 +32,12 @@ Deployed here
 -------------
 
 Below is the link to the deployed site. <br />
-[Link to deployed site](https://note-task-list.herokuapp.com/)
+[Link to deployed site](https://eat-tasty-burger.herokuapp.com/)
+
+Installation
+-----------------
+
+
 
 
 Features
