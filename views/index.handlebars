@@ -1,25 +1,32 @@
 <h1>Tasty Burgers</h1>
 
+
 <h2>Burgers devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
+<div class="columns">
+  <div class="column">
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
       {{> burgers/burger-block devour=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
 
-<h2>Burgers that have not been eaten!</h2>
+<div class="column">
+  <h2>Burgers that have not been eaten!</h2>
 
-<ul>
-  {{#each burgers}}
+  <ul>
+    {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
+  {{> burgers/burger-block devour=false}}
     {{/if}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
+</div>
+</div>
 
+<div class="container" style="margin-left: 5px;">
 <h2>Add a burger</h2>
 <form class="create-form">
 
@@ -36,3 +43,4 @@
 
   <button type="submit">Add Burger</button>
 </form>
+</div>
