@@ -1,4 +1,4 @@
-const connection = require("./connection");
+var connection = require("./connection");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -76,8 +76,9 @@ var orm = {
 
     query += " SET ";
     query += objToSql(objColVals);
-    query += condition;
     query += " WHERE ";
+    query += condition;
+    
 
     console.log(query);
     connection.query(query, function(err, result) {
