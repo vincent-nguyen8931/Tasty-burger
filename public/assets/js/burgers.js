@@ -14,9 +14,9 @@ $(function() {
       data: newDevourState
     }).then(
       function() {
-        console.log("changed not eaten to", newDevour);
+        console.log("changed eaten to", newDevour);
         // Reload the page to get the updated list
-        // location.reload();
+        location.reload();
       }
     );
   });
@@ -27,7 +27,7 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      devoured: $("[name=devour]:checked").val().trim()
     };
 
     // Send the POST request.
