@@ -1,6 +1,6 @@
 # Tasty-burger
 
-![image](public\assets\img\Tasty-burger-landing-page.png)
+![image](./public/assets/img/Tasty-burger-landing-page.png)
 
 Description
 ------------
