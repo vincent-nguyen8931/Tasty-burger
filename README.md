@@ -1,17 +1,16 @@
 # Tasty-burger
 
-![image](Note-taker-image.png)
+![image](public\assets\img\Tasty-burger-landing-page.png)
 
 Description
 ------------
 
-Note taker will allow the user to take notes and have them appear on the left hand side as a list. The notes will reset upon refresh of the page. The frontend portion of this application was given to me by the Trilogy coding bootcamp. The work performed is on the backend using Express and Node.js.
+Tasty burger app is built upon a starting layout where that is already deployable given by Trilogy. The components altered for this application is what the topic of the webpage is and the color scheme. Burgers are capable of being added, eaten, or ordered again. 
 
  Table of contents
 ---------------
 [Tools used](#Tools-used)<br />
 [Deployed here](#Deployed-here)<br />
-[Installation](#Installation)<br />
 [Features](#Features)<br />
 [Lessons learned](#Lessons-learned)<br />
 [Credits](#Credits)<br />
@@ -19,7 +18,7 @@ Note taker will allow the user to take notes and have them appear on the left ha
 
 Tools used
 -------------------
-
+* Bulma - CSS framework to help style the code efficiently.
 * Express - Link front end and back end together via routes.
 * GitBash - Assist with version control via commits, push, and pull to and from GitHub.
 * GitHub - Site where the repository lies for deployment and edits.
@@ -34,27 +33,12 @@ Deployed here
 Below is the link to the deployed site. <br />
 [Link to deployed site](https://eat-tasty-burger.herokuapp.com/)
 
-Installation
------------------
-
-
-
 
 Features
 ------------------
 
-The user has the capablity to take notes and have them saved to the list on the left side of the page upon clicking on the save icon in the top right. They are also capable of deleting notes by clicking on the red trash bin next to the specific note.
+The user has the capablity to add burgers to either list of not eaten or devoured burgers. Once added, the burgers may be eaten or ordered again by clicking on their respective buttons. This will move the burger to the opposite list to demonstrate whether the burger has or has not been eaten.
 
-Lessons learned
----------------
-There were significant difficulties in attempting to have the paths work properly when HTML routes and API routes were split into different files and then placed into a folder that is different than the server.js. The fix here was to put the entire routes into the server.js file and work from there alone.
-
-I did not manage to get the application to delete specific notes and it ends up deleting every note instead. The fix was achieved by attaining assistance from a TA during my coding bootcamp and it involved comparing two of the proper variables together. Below is a code snippet of what should have been tracked instead of what I had prior.
-```
-var noteId = req.params.id;
-    dataFile = JSON.parse(data);
-if (parseInt(noteId) !== parseInt(dataFile[j].id))
-```
 
 Credits
 ---------------
