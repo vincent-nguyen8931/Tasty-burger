@@ -43,7 +43,8 @@ The user has the capablity to add burgers to either list of not eaten or devoure
 Credits
 ---------------
 LinkedIn: [https://www.linkedin.com/in/vincent-nguyen-74226a107/](https://www.linkedin.com/in/vincent-nguyen-74226a107/) <br />
-GitHub: [https://github.com/vincent-nguyen8931](https://github.com/vincent-nguyen8931)
+GitHub: [https://github.com/vincent-nguyen8931](https://github.com/vincent-nguyen8931) <br />
+Portfolio: [https://vincent-nguyen8931.github.io/Vincent-nguyen8931-portfolio/](https://vincent-nguyen8931.github.io/Vincent-nguyen8931-portfolio/)
 
 
 License
